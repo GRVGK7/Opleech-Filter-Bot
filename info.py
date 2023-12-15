@@ -13,21 +13,21 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '24314942'))
-API_HASH = environ.get('API_HASH', '608c07ba57d9130d7974c9b3639ec570')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6736774847:AgH2SgQ5yFhxV6BS-I1PkRyXLXl5FBEPaN4")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/24d43cd3d9de74fd7740b.jpg https://graph.org/file/9373d05b762e91dcfe8f5.jpg https://graph.org/file/4847a026484826081a5c3.jpg https://graph.org/file/17e1e328bd8890cfb5b35.jpg https://graph.org/file/6a7d21b56ed6bc327f42c.jpg https://graph.org/file/ae5107b8865367b59855a.jpg https://graph.org/file/0c2872822bb7ad6238573.jpg https://graph.org/file/a0ef6e2538c7a1046228a.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/545ff17e641e74eceea0e.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9133dc596eabc73750774.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6264350802').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -43,26 +43,26 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://filterbot:filterbot@cluster0.nciqf4l.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '16badb4cdfbd26689b88c28d4385b24b5ec85d81')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/WD_Topic_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Opleech')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Opleech/371')
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+GRP_LNK = environ.get('GRP_LNK', '')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TelegramTips')
+TUTORIAL = environ.get('TUTORIAL', '')
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello and Hello ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001944172434'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'WD_Topic_Group')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -75,7 +75,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001571381145')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
@@ -91,18 +91,18 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'opleech')
+    APP_NAME = environ.get('APP_NAME', '')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'opleech'
-URL = "https://opleech-5250e5fcd60e.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://opleech-5250e5fcd60e.herokuapp.com/".format(FQDN, PORT)
+FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "http://{}:{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'opleechbot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', ''))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'OpleechAngel'))
+name = str(environ.get('name', ''))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://opleech-5250e5fcd60e.herokuapp.com/".format(FQDN)
+    URL = "https://{}/".format(FQDN)
 else:
-    URL = "https://opleech-5250e5fcd60e.herokuapp.com/".format(FQDN)
+    URL = "http://{}/".format(FQDN)
 
 
 
@@ -127,3 +127,9 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
+
+# Auto Delete For Group Message (Self Delete) #
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE = environ.get('SELF_DELETE', True)
+if SELF_DELETE == "True":
+    SELF_DELETE = True
