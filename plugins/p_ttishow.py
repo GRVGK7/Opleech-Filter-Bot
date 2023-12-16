@@ -38,6 +38,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
+                    InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=GRP_LNK),
                     InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -58,8 +59,9 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
+                                                                           InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=GRP_LNK),
                                                                            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
-                                                                        ]]
+                                                                         ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
@@ -83,6 +85,9 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
+            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩',url="https://t.me/imdb7group"),
+            InlineKeyboardButton('𝐎𝐰𝐧𝐞𝐫', url="https://t.me/GRVGK7")
+        ],[
             InlineKeyboardButton('𝐔𝐬𝐞 𝐦𝐞 𝐇𝐞𝐫𝐞', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
