@@ -8,17 +8,17 @@ class script(object):
     Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs</b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_filter_V1bot>TG_filter_V1bot</a>
- ‣ Create By : <a href='https://t.me/Farooq_is_KING'>WOODcraft</a> 
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot>Iᴍᴅʙ Bᴏᴛ</a>
+ ‣ Create By : <a href='https://t.me/GRVGK7'>ɢʀᴠ</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Hᴇʀᴏᴋᴜ</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
 <b>Nᴏᴛᴇ:
-✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/Farooq_is_KING'>𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭</a>
+✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/GRVGK7'>ɢʀᴠ</a>
 ✭ Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
 ✭ ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ</b>
 """
