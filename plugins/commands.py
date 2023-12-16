@@ -45,7 +45,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=https://t.me/TelegramTips),
+                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url="https://t.me/TelegramTips"),
                     InlineKeyboardButton('🔗 𝐈𝐦𝐝𝐛 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 🔗', url="https://t.me/imdb7group")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
