@@ -8,7 +8,7 @@ class script(object):
     Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs</b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot>Iᴍᴅʙ Bᴏᴛ</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/imdb7bot'>Iᴍᴅʙ Bᴏᴛ</a>
  ‣ Create By : <a href='https://t.me/GRVGK7'>ɢʀᴠ</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
