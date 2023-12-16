@@ -2,13 +2,13 @@ class script(object):
     START_TXT = """<b>𝐇𝐞𝐥𝐥𝐨 {},
     Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
     I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ
-    Jᴜsᴛ Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ Iɴ PM Oʀ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ</b>"""
+   Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {},
     Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs</b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/imdb7bot>ɪᴍᴅʙ ʙᴏᴛ</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/imdb7bot'>ɪᴍᴅʙ ʙᴏᴛ</a>
  ‣ Create By : <a href='https://t.me/GRVGK7'>ɢʀᴠ</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
