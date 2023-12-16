@@ -25,7 +25,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('〶𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥〶', url="https://t.me/TelegramTips")
+                    InlineKeyboardButton('❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url="https://t.me/imdb7group"),
+                    InlineKeyboardButton('🔗 𝐈𝐦𝐝𝐛 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 🔗', url="https://t.me/imdb7group")
+                ],[
+                    InlineKeyboardButton('〶𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥〶', url=https://t.me/TelegramTips)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -42,10 +45,9 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url="https://t.me/TelegramTips")
-                  ],
-                  [
+                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=https://t.me/TelegramTips),
+                    InlineKeyboardButton('🔗 𝐈𝐦𝐝𝐛 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 🔗', url="https://t.me/imdb7group")
+                ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
                   ]]
@@ -95,10 +97,9 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url="https://t.me/TelegramTips")
-                  ],
-                  [
+                    InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=https://t.me/TelegramTips),
+                    InlineKeyboardButton('🔗 𝐈𝐦𝐝𝐛 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 🔗', url="https://t.me/imdb7group")
+                ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
                   ]]
