@@ -8,17 +8,17 @@ class script(object):
     Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs</b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/imdb7bot'>ɪᴍᴅʙ ʙᴏᴛ</a>
- ‣ Create By : <a href='https://t.me/GRVGK7'>ɢʀᴠ</a> 
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_filter_V1bot>TG_filter_V1bot</a>
+ ‣ Create By : <a href='https://t.me/Farooq_is_KING'>WOODcraft</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
 <b>Nᴏᴛᴇ:
-✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/GRVGK7'>ɢʀᴠ</a>
+✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/Farooq_is_KING'>𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭</a>
 ✭ Sᴏᴜʀᴄᴇ - ɪᴛ's ᴀ ᴘʀɪᴠᴀᴛᴇ ʀᴇᴘᴏ
 ✭ ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ</b>
 """
@@ -71,7 +71,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- 
+ <b>✯ Maintained by : <a href=https://t.me/Farooq_is_KING>Owner</a></b>
+  
+ <b>✯ Join here : <a href=https://t.me/Opleech>Join my updateds</a></b> 
+  
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
   
@@ -211,6 +214,12 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+
+    CAPTION = """ 
+<b>══════════════════
+🗂 {file_name}
+═════════════════════ 
+𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞 :- @WD_Topic_Group</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -457,3 +466,30 @@ $$$$$$$     $$$$$$$by$TL$
 -------------------------"""
 
 # dont remove my logo 
+    PAID_TXT = """<b>Join a Prime group to get free movie without any ads
+Your time is valuable, Stop watching ads and simply avoid the stupidity
+<a href='https://telegram.me/WD_Topic_Group'>➹ 𝐀𝐃 𝐅𝐫𝐞𝐞 𝐆𝐫𝐨𝐮𝐩 ➹</a>
+
+Prime Membership Progress
+
+1 month - 0 Rs
+
+3 Months – 00 RS
+
+6 months - 000 Rs
+
+12 Months - 0000 Rs [12 Month Free Trial]
+
+♛ UPI ID »»————> OpAngel@fan
+
+Would you like to become a Prime Member? Follow these steps:-
+
+✤ Step 1: Go to any payment app like Google PAY, PAYTM,
+✤ Step 2: Pay using UPI ID depending on your plan.
+✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
+
+Any doubts or how to become a prime member? contact me @Farooq_is_KING @Farooq_is_KING</code></b>"""
+
+
+
+  
